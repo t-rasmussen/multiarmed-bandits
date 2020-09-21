@@ -1,0 +1,33 @@
+{
+  "name": "k-bandit-problem",
+  "version": "1.0.0",
+  "description": "interactive k-bandit problem demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "wp-dev": "webpack --mode development",
+    "wp-build": "webpack --mode production",
+    "wp-server": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "k-bandit-problem",
+    "reinforcement learning"
+  ],
+  "author": "trolle",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "p5": "^1.1.9",
+    "random-z": "^3.0.1"
+  }
+}
